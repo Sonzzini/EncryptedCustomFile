@@ -12,6 +12,7 @@
 		E9DE84DB2C45981D0053388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DE84DA2C45981D0053388D /* Assets.xcassets */; };
 		E9DE84DE2C45981D0053388D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DE84DD2C45981D0053388D /* Preview Assets.xcassets */; };
 		E9DE84E62C45983A0053388D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE84E52C45983A0053388D /* Transaction.swift */; };
+		E9DE85252C47024B0053388D /* TransactionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DE85242C47024B0053388D /* TransactionCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E9DE84DD2C45981D0053388D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9DE84E52C45983A0053388D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		E9DE84E72C45AA870053388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9DE85242C47024B0053388D /* TransactionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				E9DE84E42C45982C0053388D /* Model */,
 				E9DE84D62C45981B0053388D /* CustomFileSampleApp.swift */,
 				E9DE84D82C45981B0053388D /* ContentView.swift */,
+				E9DE85242C47024B0053388D /* TransactionCard.swift */,
 				E9DE84DA2C45981D0053388D /* Assets.xcassets */,
 				E9DE84DC2C45981D0053388D /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9DE85252C47024B0053388D /* TransactionCard.swift in Sources */,
 				E9DE84D92C45981B0053388D /* ContentView.swift in Sources */,
 				E9DE84D72C45981B0053388D /* CustomFileSampleApp.swift in Sources */,
 				E9DE84E62C45983A0053388D /* Transaction.swift in Sources */,

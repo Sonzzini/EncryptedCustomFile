@@ -45,7 +45,7 @@ struct Transactions: Codable, Transferable {
 
 extension SymmetricKey {
 	static var trnKey: SymmetricKey {
-		let key = "Dondo".data(using: .utf8)!
+		let key = "Dondos".data(using: .utf8)!
 		let sha256 = SHA256.hash(data: key)
 		
 		return .init(data: sha256)

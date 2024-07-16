@@ -16,22 +16,7 @@ struct ContentView: View {
 	var body: some View {
 		NavigationStack {
 			List(transactions) { transaction in
-				HStack(spacing: 10) {
-					VStack(alignment: .leading, spacing: 6) {
-						Text(transaction.title)
-						
-						Text(transaction.date.formatted(date: .numeric, time: .shortened))
-							.font(.caption)
-							.foregroundStyle(.gray)
-					}
-					
-					Spacer(minLength: 0)
-					
-					Text("$\(Int(transaction.amount))")
-						.font(.callout.bold())
-					
-					
-				}
+				TransactionCard(transaction: transaction)
 			}
 			.navigationTitle("Transactions")
 			.toolbar {
