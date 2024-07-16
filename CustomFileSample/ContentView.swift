@@ -15,10 +15,13 @@ struct ContentView: View {
 	
 	var body: some View {
 		NavigationStack {
+			
 			List(transactions) { transaction in
 				TransactionCard(transaction: transaction)
 			}
+			
 			.navigationTitle("Transactions")
+			
 			.toolbar {
 				ToolbarItem(placement: .topBarTrailing) {
 					Button("", systemImage: "square.and.arrow.down.fill") {
